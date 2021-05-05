@@ -1,0 +1,28 @@
+{
+    "name": "silveirasoft/crud-spa",
+    "description": "Project CRUD php",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "silveiraSoft",
+            "email": "adalbertosn1982@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config":{
+        "vendor-dir": "lib",
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "",
+            "Functions\\" : "lib/php/functions",
+            "Conection\\" : "lib/php/connect"
+
+        }
+    }
+}
